@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="Generator" content="EditPlus®">
+<meta name="Author" content="(주)디티엔">
+<meta name="Description" content="(주)디티엔 샘플 기획">
+<meta name="Viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="./css/style.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<title>샘플 기획</title>
+</head>
+<body>
+<div id="main">
+	<div id="row1">
+		<ul class="banner">
+			<li><a href="#"><img src="./images/banner1.png" alt="슬라이드 배너1" /></a></li>
+			<li><a href="#"><img src="./images/banner2.png" alt="슬라이드 배너2" /></a></li>
+		</ul>
+	</div> <!--// row1 -->
+
+	<div id="row2">
+		<img src="./images/banner3.png" alt="고정 배너" />
+	</div> <!--// row2 -->
+
+	<div id="row3">
+		<ul class="db">
+			<li><a href="#"><img src="./images/img1.jpg" alt="DB 이미지1" /></a></li>
+			<li><a href="#"><img src="./images/img2.jpg" alt="DB 이미지2" /></a></li>
+			<li><a href="#"><img src="./images/img3.jpg" alt="DB 이미지3" /></a></li>
+			<li><a href="#"><img src="./images/img4.jpg" alt="DB 이미지4" /></a></li>
+			<li><a href="#"><img src="./images/img5.jpg" alt="DB 이미지5" /></a></li>
+			<li><a href="#"><img src="./images/img6.jpg" alt="DB 이미지6" /></a></li>
+		</ul>
+	</div> <!--// row3 -->
+
+	<div id="row4">
+		<div class="tab">
+			<a href="#" class="on">공지사항</a>
+			<a href="#">NEWS</a>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="cont">
+			<ul>
+				<li><a href="#">것은 있는 구하지 스며들어 실현에 새가 있으랴? 이상은 위하여 있음으로써 얼음과 하였으며, 이상의 그러므로 보배를 바이며, 때문이다. 충분히 가는 거선의 웅대한 것이다. 기관과 남는 그들에게 영락과 같으며, 살 철환하였는가?</a><span>2019-03-21</span></li>
+				<li><a href="#">그들의 평화스러운 내려온 것이다. 자신과 인간에 넣는 불어 용기가 그리하였는가? 구하기 때까지 피어나기 풀이 내려온 같이 있으며, 자신과 것이다. 남는 작고 청춘의 칼이다.</a><span>2019-03-21</span></li>
+				<li><a href="#">오직 주는 무엇을 목숨이 산야에 불어 것이다. 놀이 돋고, 보내는 철환하였는가?</a><span>2019-03-21</span></li>
+				<li><a href="#">용기가 꽃이 없으면 되려니와, 넣는 길을 것이다. 같으며, 날카로우나 것은 풍부하게 가치를 위하여서 황금시대를 희망의 사막이다. 피고 이상의 거친 풍부하게 그들의 실현에 우리는 피는 위하여서.</a><span>2019-03-21</span></li>
+				<li><a href="#">인생에 용기가 장식하는 갑 아름답고 이상 천지는 싶이 이상은 있으랴? 청춘에서만 피가 천하를 이것이다. 이상을 내는 거선의 이상 싸인 보배를 얼음이 있으랴? 모래뿐일 아니한 인간의 예수는 그들은 소리다.이것은 돋고, 사막이다.</a><span>2019-03-21</span></li>
+			</ul>
+		</div>
+	</div> <!--// row4 -->
+	<br /><br />
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('ul.banner').slick({
+		dots: false,
+		infinite: true,
+		speed: 600,
+		arrows: false,
+		slidesToShow: 1,
+		adaptiveHeight: true,
+		autoplay: true,
+		autoplaySpeed:1800,
+		swipe: false
+    });
+
+	$('ul.db').slick({
+		dots: false,
+		infinite: true,
+		speed: 600,
+		arrows: false,
+		slidesToShow: 1,
+		adaptiveHeight: true,
+		autoplay: true,
+		autoplaySpeed:2000
+    });
+});
+</script>
+</body>
+</html>
